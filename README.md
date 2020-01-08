@@ -18,11 +18,71 @@ For this lab you will:
 Visit [SQL Try Editor at W3Schools.com](https://www.w3schools.com/Sql/tryit.asp?filename=trysql_select_top) using the **Google Chrome (or Chromium if you use Linux) browser** and write _SQL queries_ for the following requirements:
 
 - find all customers with postal code 1010. Returns 3 records.
+  (A)
+  (
+  SELECT \*
+  FROM Customers
+  WHERE PostalCode = '1010';
+  )
+  (Result)
+  (
+  Number of Records: 3
+  CustomerID CustomerName ContactName Address City PostalCode Country
+  12 Cactus Comidas para llevar Patricio Simpson Cerrito 333 Buenos Aires 1010 Argentina
+  54 Océano Atlántico Ltda. Yvonne Moncada Ing. Gustavo Moncada 8585 Piso 20-A Buenos Aires 1010 Argentina
+  64 Rancho grande Sergio Gutiérrez Av. del Libertador 900 Buenos Aires 1010 Argentina
+  )
+
 - find the phone number for the supplier with the id 11. Should be (010) 9984510.
+  (A)
+  (
+
+)
+(Result)
+(
+
+)
+
 - list first 10 orders placed, sorted descending by the order date. The order with date 1997-02-12 should be at the top.
+  (A)
+  (
+
+)
+(Result)
+(
+
+)
+
 - find all customers that live in London, Madrid, or Brazil. Returns 18 records.
-- add a customer record for _"The Shire"_, the contact name is _"Bilbo Baggins"_ the address is _"1 Hobbit-Hole"_ in _"Bag End"_, postal code _"111"_ and the country is _"Middle Earth"_.
+  (A)
+  (
+
+)
+(Result)
+(
+
+)
+
+- add a customer record for _"The Shire"_, the contact name is _"Bilbo Baggins"_ the address is _"1 Hobbit-Hole"_ in _"Bag
+  End"_, postal code _"111"_ and the country is _"Middle Earth"_.
+  (A)
+  (
+
+)
+(Result)
+(
+
+)
+
 - update _Bilbo Baggins_ record so that the postal code changes to _"11122"_.
+  (A)
+  (
+
+)
+(Result)
+(
+
+)
 
 **Clicking the `Restore Database` button in the page will repopulate the database with the original data and discard all changes you have made**.
 
